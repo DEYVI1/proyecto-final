@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafetería - Inicio</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ubicacion</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>Ubicación</title>
+    </head>
 <body>
-    
-</body>
+    <header>
+        <h1>Mapa de Ubicacion</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/menu">Menú</a></li>
+            <li><a href="/about">Sobre nosotros</a></li>
+            <li><a href="/ubicacion">Ubicacion</a></li>
+        </ul>
+        <hr>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13588.750476314426!2d-106.48168561284179!3d31.62871300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e761b2ae3a3697%3A0x1aa980b5bcc1812c!2sCaf%C3%A9%20Kalinda!5e0!3m2!1ses-419!2smx!4v1712909676570!5m2!1ses-419!2smx"
+        width="2100" height="1024" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </body>
 </html>
+
