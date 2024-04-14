@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafetería - Inicio</title>
+    <title>Cafetería - Menú</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     
+    <header>
+        <h1>Nuestro Menú</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/menu">Menú</a></li>
+            <li><a href="/about">Sobre nosotros</a></li>
+            <li><a href="/ubicacion">Ubicacion</a></li>
+            
+        </ul>
+     
+    </nav>
+   
+        <div class="grid-container">
+            
+            <div class="grid-item1">
+                <h2>Menú</h2>
+                <p>Descubre nuestras deliciosas opciones de café, té y snacks.</p>
+                <img src="/static/menu.png" class="img-01" alt="">
+            </div>
+
+            
+            <div class="grid-item2">             
+                <h2>Ambiente Acogedor</h2>
+                <p>Ven y relájate en nuestro cálido y acogedor espacio.</p>
+                <img src="/static/ambiente.png" class="img-03" alt="">
+            </div>
+
+            
+            <div class="grid-item3">              
+                <h2>Servicio Amable</h2>
+                <p>Nuestro personal te atenderá con una sonrisa.</p>
+                <img src="/static/servicio.jpg" class="img-03" alt="">
+            </div>
+        </div>
+
+        <footer>
+            <p>Contáctanos: info@cafeteria.com</p>
+            <style>
+                footer {
+                    text-align: center;
+                }
+            </style>
+        </footer>
 </body>
 </html>
+
