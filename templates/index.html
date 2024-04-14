@@ -14,9 +14,9 @@
     <nav>
         <ul>
             <li><a href="/">Inicio</a></li>
-            <li><a href="/menu">Menú</a></li>
-            <li><a href="/about">Sobre nosotros</a></li>
-            <li><a href="/ubicacion">Ubicacion</a></li>
+            <li><a href="{{ url_for('menu', filename='menu.html') }}">Menú</a></li>
+            <li><a href="{{ url_for('about', filename='about.html') }}">Sobre nosotros</a></li>
+            <li><a href="/templates/ubicacion.html">Ubicacion</a></li>
         </ul>
     </nav>
 
