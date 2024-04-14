@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafetería - Inicio</title>
+    <title>Cafetería - Sobre nosotros</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    
+    <header>
+        <h1>Sobre Nosotros</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/menu">Menú</a></li>
+            <li><a href="/about">Sobre nosotros</a></li>
+            <li><a href="/ubicacion">Ubicacion</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Nuestra Historia</h2>
+            <p>Somos una cafetería familiar que abrió sus puertas en 1995. Desde entonces, nos hemos dedicado a ofrecer a nuestros clientes el mejor café y un ambiente acogedor para disfrutarlo.</p>
+        </section>
+        <section>
+            <h2>Nuestro Equipo</h2>
+            <p>Nuestro equipo está formado por amantes del café que se esfuerzan por brindar la mejor experiencia a nuestros clientes. Desde baristas expertos hasta personal de atención al cliente, todos trabajamos juntos para asegurarnos de que cada taza de café sea perfecta.</p>
+        </section>
+        <section>
+            <h2>Nuestra Misión</h2>
+            <p>En Café delicioso, nuestra misión es simple: servir café de la más alta calidad y crear momentos memorables para nuestros clientes. Nos esforzamos por ofrecer un servicio excepcional en un ambiente cálido y acogedor.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contáctanos: info@cafeteria.com</p>
+    </footer>
+    <style>
+        footer {
+            text-align: center;
+        }
+    </style>
 </body>
 </html>
