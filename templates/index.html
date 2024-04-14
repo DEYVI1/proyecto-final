@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    
+    <header>
+        <h1>Bienvenido a nuestra Cafetería</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/menu">Menú</a></li>
+            <li><a href="/about">Sobre nosotros</a></li>
+            <li><a href="/ubicacion">Ubicacion</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Nuestro Café</h2>
+            <p>En Café delicioso, nos enorgullecemos de servir el mejor café. Utilizamos granos de café de alta calidad y cuidamos cada paso del proceso de preparación para asegurarnos de que cada taza sea perfecta.</p>
+            <p>Ya sea que prefieras un espresso intenso, un capuchino cremoso o un café filtrado suave, tenemos algo para satisfacer todos los gustos.</p>
+        </section>
+        <section>
+            <h2>Nuestras Especialidades</h2>
+            <p>Además de café, también ofrecemos una variedad de deliciosas opciones para complementar tu bebida. Desde pasteles caseros hasta sándwiches recién preparados, siempre encontrarás algo delicioso para acompañar tu café.</p>
+        </section>
+        <section>
+            <h2>Visítanos</h2>
+            <p>¡Esperamos verte pronto en Café delicioso! Ven y disfruta de una taza de café con nosotros en nuestro acogedor café.</p>
+            <p>En Esta direccion Eje Vial Juan Gabriel 9851, Del Safari II, 32675 Juárez, Chih.</p>
+            <p>Y tambien nuestra ubicacion en <a href="/ubicacion">Google Maps</a></p>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Contáctanos: info@cafeteria.com</p>
+        <style>
+            footer {
+                text-align: center;
+            }
+        </style>
+    </footer>
 </body>
 </html>
